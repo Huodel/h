@@ -1,3 +1,28 @@
+/*  Be careful 5G Active     */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(231, 231, 231, 0) rgba(231, 231, 231, 0);
+}
+*::-webkit-scrollbar {
+  width: 1px;
+}
+*::-webkit-scrollbar-track {
+  background: rgba(231, 231, 231, 0);
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(231, 231, 231, 0)rgb(231, 231, 231);
+  border-radius: 1px;
+  border: 1px solid rgba(231, 231, 231, 0);
+}
+/*  Be careful 5G Active     */
+
+
+textarea{
+resize: none;
+}
+
+
+
 .App {
   text-align: center;
 }
@@ -36,3 +61,1997 @@
     transform: rotate(360deg);
   }
 }
+
+#img{
+  height: 100%;
+}
+
+ #skin{
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+ }
+
+#logo{
+  display: none;
+  height: 200px;
+  position: absolute;
+  margin: auto;
+  bottom: 10;
+  left: 0;
+  right: 0;
+}
+
+ #logcase{
+  z-index: 700;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  backdrop-filter: blur(3rem);
+
+}
+
+
+
+ #bored{border-radius: 100%}
+
+ #bal{
+  backdrop-filter: blur(0rem);
+  transition-property:all;
+  transition-duration: 6s;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ }
+
+#carpet{
+  z-index: 700;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  margin: auto;
+  bottom: 10;
+  left: 0;
+  right: 0;
+  background-color: rgba(128, 0, 0, 0.303);
+
+  mask-image: url("./assets/logo.png");
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+    backdrop-filter: invert(1000%);
+   /* mask-image: linear-gradient(rgba(0, 0, 0, 1), transparent)*/
+}
+#rounder{
+  z-index: 503;
+  overflow: hidden;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+}
+
+#round1{
+  transition-duration: 300ms;
+  background-color: red;
+  height: 30vw;
+  width: 30vw;
+  border-radius: 100%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#round2{
+  transition-duration: 300ms;
+  background-color: green;
+  height: 30vw;
+  width: 30vw;
+  border-radius: 100%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 60px;
+  left: 0;
+  right: 60px;
+}
+#round3{
+  transition-duration: 300ms;
+  background-color: blue;
+  height: 30vw;
+  width: 30vw;
+  border-radius: 100%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 20px;
+  left: 100px;
+  right: 0;
+}
+
+#loui{
+  z-index: 2;
+  position: absolute;
+  top: 8%;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(202, 202, 202, 0.66);
+}
+@media screen and (max-width: 800px) {#loui{ 
+  position: fixed;
+  top: unset;
+  margin-top: 160px;
+  margin-bottom: 20px;
+  height: calc(100vh - 180px);
+  border-radius: 13px;
+  flex-direction: column-reverse; 
+  justify-content: center;
+}}
+
+#userlogo{
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+  margin-top: 50px;
+}@media screen and (max-width: 800px) {#userlogo{ 
+  margin: auto;
+  position: relative;
+  height: 200px;
+  left: 0px;
+  right: 0px;
+  width: fit-content; }}
+
+#ucase{
+  transform: scale(0.9);
+  height: 100%;
+  width: 500px;
+}
+@media screen and (max-width: 800px) {#ucase{ 
+  margin: auto;
+  height: 50ps;
+  left: 0px;
+  right: 0px;
+  width: 310px; }}
+
+#usr{
+  height: 45px;
+  width: 350px;
+  margin-top: 60px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 2px;
+  border-radius: 15px;
+  text-align: center;
+  outline: transparent;
+  font-size: 15px;
+}@media screen and (max-width: 800px) {#usr{ width: 300px;margin-top: 70px; }}
+#pas{
+  height: 45px;
+  width: 350px;
+  margin-top: 50px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 2px;
+  border-radius: 15px;
+  text-align: center;
+  outline: transparent;
+  font-size: 15px;
+}@media screen and (max-width: 800px) {#pas{ width: 300px; }}
+#igi{
+  color: white;
+  height: 40px;
+  width: 350px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  padding-top: 15px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: rgb(1, 1, 74);
+
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}@media screen and (max-width: 800px) {#igi{ width: 305px; }}
+
+#slider{
+  z-index: 500;
+  transition-property: all;
+  transition-duration: 400ms;
+  position: fixed;
+  background: linear-gradient(to bottom,rgb(187, 29, 187), rgb(150, 99, 150),rgb(149, 197, 213));
+  width: 300px;
+  height: 100vh;
+}
+@media screen and (max-width: 800px) {#slider{ width: 250px;}}
+@media screen and (max-width: 750px) {#slider{ margin-left: -250px;}}
+@media screen and (max-width: 960px) {#slider{ margin-left: -300px;}}
+
+
+#slider2{
+  z-index: 500;
+  transition-property: all;
+  transition-duration: 400ms;
+  position: fixed;
+  background: linear-gradient(to bottom,rgb(37, 34, 35), rgb(60, 22, 22),rgb(192, 144, 156));
+  width: 300px;
+  height: 100vh;
+}
+@media screen and (max-width: 800px) {#slider2{ width: 250px;}}
+@media screen and (max-width: 750px) {#slider2{ margin-left: -250px;}}
+@media screen and (max-width: 960px) {#slider2{ margin-left: -300px;}}
+
+#slideout2{
+  z-index: 500;
+  transition-property: all;
+  transition-duration: 400ms;
+  position: fixed;
+  background: linear-gradient(to bottom,rgb(37, 34, 35), rgb(60, 22, 22),rgb(192, 144, 156));
+  width: 300px;
+  height: 100vh;
+}
+@media screen and (max-width: 800px) {#slideout2{ width: 250px;}}
+@media screen and (max-width: 750px) {#slideout2{ margin-left: -250px;}}
+@media screen and (max-width: 960px) {#slideout2{ margin-left:  0px;}}
+
+
+
+
+#slideout{
+  z-index: 500;
+  transition-property: all;
+  transition-duration: 400ms;
+  position: fixed;
+  background: linear-gradient(to bottom,rgb(187, 29, 187), rgb(150, 99, 150),rgb(149, 197, 213));
+  width: 300px;
+  height: 100vh;
+}
+@media screen and (max-width: 800px) {#slideout{ width: 250px;}}
+@media screen and (max-width: 750px) {#slideout{ margin-left: -250px;}}
+@media screen and (max-width: 960px) {#slideout{ margin-left:  0px;}}
+
+
+#item{
+  margin: auto;
+  height: 30px;
+  width: 90%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}@media screen and (max-width: 800px) {#item{ height: 35px; margin-bottom: 25px;}}
+
+#item:hover{
+  background-color: rgba(206, 228, 235, 0.564);
+}
+
+
+#item2{
+  margin: auto;
+  height: 30px;
+  width: 90%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: rgba(206, 228, 235, 0.564);
+}@media screen and (max-width: 800px) {#item2{ height: 36px; margin-bottom: 25px;}}
+
+
+#itex{
+  text-align: left;
+  margin-left: 70px;
+  margin-top: -30px;
+  color: white;
+}
+
+#pio{ 
+  position: absolute;
+  left: 0px;
+  margin-left: 20%; 
+  top: 20px;
+  width: calc(50% - 20px );
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 20px;
+  border:  1px solid;
+  border-color: transparent;
+  outline: none;
+  border-radius: 15px;
+  background-color: rgba(206, 228, 235, 0.564);
+    box-shadow: 1px 1px 10px 0px rgba(83, 83, 83, 0.771)
+}
+
+#maincase{
+  height: 100vh;
+  width: calc(100vw - 300px);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 750px) {#maincase{ width: 100vw; }}
+@media screen and (max-width: 960px) {#maincase{ width: 100vw;  }}
+
+
+#search{
+  height: 20px;
+  margin-top: 20px;
+  position: absolute;
+  left: 0;
+  margin-left: calc(20% - 30px);
+}
+#notify{
+  height: 20px;
+  margin-top: 20px;
+  float: right;
+  margin-right: 5px;
+}
+
+
+#usseric{
+  height: 20px;
+  margin-top: 20px;
+  float: right;
+}
+
+
+#usname{
+  height: 20px;
+  margin-top: 20px;
+  float: right;
+  margin-left: 10px;
+  margin-right: calc(27% - 100px);
+}
+
+#firsl{
+  height: 120px;
+  width: 100%;
+}
+
+
+#firsl2{
+  z-index: 2;
+  height: 120px;
+  width: 100%;
+  position: absolute;
+}
+
+
+
+
+#minage{  position: absolute;
+  height: 38px;
+  margin-top: 70px;
+  margin-left: 5%;
+}
+
+#mcn{
+  position: absolute;
+  margin-top: 65px;
+  margin-left: calc(5% + 50px);
+  height: 40px;
+  width: auto;
+}
+
+#hiname{ 
+  font-size: 12px;
+  margin-bottom:5px }
+#lowname{ font-size: 15px; }
+
+#scrbt{  
+  height: 25px;
+  width: 100px;
+  background-color: indianred;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 13px;
+  color: white;
+}
+#scrbt:hover{
+  background-color:  rgb(223, 61, 61);
+}
+
+#sbtpos{
+  right: 0px;
+  margin-top: 70px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 370px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+}@media screen and (max-width: 990px) {#sbtpos{ display: none}}
+
+#spld{
+  display: none;
+  height: 50px;
+  position: absolute;
+  right: 40px;
+  margin-top: 70px;
+}@media screen and (max-width: 990px) {#spld{ display:block; }}
+
+#pso{
+  display: none;
+  z-index: 2;
+  opacity: 1;
+  position: absolute;
+  right: 20px;
+  width: 120px;
+  text-align: left;
+  overflow: hidden;
+  margin-top: 110px;
+  border-radius: 15px;
+  padding-left: 3px;
+  padding-bottom: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 10px 0px rgba(83, 83, 83, 0.771);
+
+  animation-delay: 0ms;
+   animation-name: animback;
+   -webkit-animation-duration: 300ms;
+   animation-duration: 300ms;
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both;
+}
+@media screen and (max-width: 990px) {#pso{ display: block;}}
+
+@keyframes animback {
+  0% {margin-top: 100px; opacity: 0};
+  100% {margin-top: 110px; opacity: 1};
+}
+ 
+#meme{
+  height: 30px;
+  position: absolute;
+  left: 0;
+  margin-left: 5px;
+}
+#psi{
+  display: none;
+  z-index: 0;
+  opacity: 0;
+  position: absolute;
+  right: 20px;
+  width: 120px;
+  text-align: left;
+  overflow: hidden;
+  margin-top: 110px;
+  border-radius: 15px;
+  padding-left: 3px;
+  padding-bottom: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 10px 0px rgba(83, 83, 83, 0.771);
+
+  animation-delay: 0ms;
+   animation-name: animback2;
+   -webkit-animation-duration: 300ms;
+   animation-duration: 300ms;
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both;
+}
+@media screen and (max-width: 990px) {#psi{ display: block;}}
+
+@keyframes animback2 {
+  0% {margin-top: 110px; opacity: 1};
+  100% {margin-top: 100px; opacity: 0};
+}
+
+#inpsl{
+  margin: auto;
+  text-align: center;
+  height: 35px;
+  width: 80%;
+  padding-top: 10px;
+  border-color: lightgray;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  font-size: 14px;
+}
+
+#main5g{
+  position: absolute;
+  overflow-y: scroll;
+  height: calc(100%  - 120px);
+  width: 100%;
+  background-color: rgb(187, 220, 230);
+}  @media screen and (max-width: 660px) {#main5g{ position: relative; width: 100%;  overflow: scroll; }}
+
+
+#jrs{
+  position: absolute;
+  left: 0;
+  width: calc(100% - 280px);
+  background-color: transparent;
+}@media screen and (max-width: 660px) {#jrs{width: 100%; position: unset;}}
+
+
+
+#jrs1{
+  position: absolute;
+  left: 0;
+  width: 100%;
+
+}
+
+
+#main5pro{
+  right: 0;
+  position: fixed;
+  overflow-y: scroll;
+  height: calc(100% - 120px );
+  width: 280px;
+  background-color: rgb(187, 220, 230);
+}
+  @media screen and (max-width: 660px) {#main5pro{ position: absolute; width: 100%;  overflow: hidden; height: fit-content;}}
+
+
+
+#dntex{
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+
+#dntex2{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom:-30px;
+  margin-left: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+
+#dntex3{
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 80px;
+  left: 5%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+                                                                                                                                                                                                                                        
+
+#lwiget{
+  display: inline-block;
+  height: 180px;
+  width: 300px;
+  margin-top: 60px;
+  margin-left: 30px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 10px 0px rgba(83, 83, 83, 0.771)
+}@media screen and (max-width: 660px) {#lwiget{ margin-left: 0px;}}
+
+
+#lwigetc{
+  display: inline-block;
+  height: 300px;
+  width: 230px;
+  margin-top: 60px;
+  margin-left: 30px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 10px 0px rgba(83, 83, 83, 0.771)
+}@media screen and (max-width: 660px) {#lwiget{ margin-left: 0px;}}
+
+#wiheading{
+  position: absolute;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+#wibtex{
+  font-size: 13px;
+  padding-top: 1%;
+  text-align: left;
+  margin-left: 20px;
+  height: 40px;
+  float: left;
+  width: 260px;
+}
+
+#wicon{
+  height: 50px;
+  width: 50px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+  visibility: hidden;
+}
+
+#wmicon{
+  float: right;
+  margin-top: 45px;
+  width: fit-content;
+}
+#wichil{
+  height: 25px;
+  width: 25px;
+  margin-right: 15px;
+}
+
+#vmt{
+  width: fit-content;
+  float: left;
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+#vmt2{
+  width: fit-content;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+#padbase{
+  width: 100px;
+  height: 30px;
+}
+
+#sidechik{
+  margin: auto;
+  margin-top: 60px;
+  right: 20px;
+  left: 0;
+  height: fit-content;
+  width: 250px;
+  background-color: white;
+  border-radius: 20px;
+}@media screen and (max-width: 660px) {#sidechik{ width: 80%;}}
+
+#gpt{
+  width: 800px;
+}
+@media screen and (max-width: 1280px) {#gpt{ width: 400px;}}
+@media screen and (max-width: 660px) {#gpt{ width: 100vw;}}
+
+
+
+#gpt1{
+  width:  800px;
+}
+@media screen and (max-width: 1100px) {#gpt1{ width: 550px;}}
+@media screen and (max-width: 960px) {#gpt1{ width: 800px;}}
+@media screen and (max-width: 800px) {#gpt1{ width: 600px;}}
+@media screen and (max-width: 600px) {#gpt1{ width: 300px;}}
+
+
+
+
+
+#objh{
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#objb{
+font-size: 13px;
+margin-left: 20px;
+margin-top: 20px;
+}
+
+#line{
+  margin: auto;
+  margin-top: 20px;
+  width: 85%;
+  height: 1px;
+  background-color: gray;
+
+}
+
+#line2{
+  margin: auto;
+  margin-top: 5px;
+  width: 85%;
+  height: 1px;
+  background-color: gray;
+
+}
+
+#wiji{
+  padding-top:20px;
+}
+#wijic{
+  position: absolute;
+  padding-top: 60px;
+}
+
+#pad{
+height: 20px;
+}
+
+#sim{
+  height: 30px;
+}
+
+#rose{
+  float: left;
+  margin-left: 27px;
+  margin-top: 8px;
+}
+
+#jagaban{
+  z-index: 10;
+  position: absolute;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: none;
+}
+@media screen and (max-width: 960px) {#jagaban{ display: block;}}
+
+#jagaban2{
+  z-index: 1;
+  position: absolute;
+  height: 40px;
+  top: 10px;
+  right: 10px;
+  display: none;
+}
+@media screen and (max-width: 960px) {#jagaban2{ display: block;}}
+
+#skibi{
+  z-index: 400;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.357);
+}@media screen and (max-width: 960px) {#skibi{ display: block;}}
+
+#skibi2{
+  z-index: 400;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.357);
+}@media screen and (max-width: 960px) {#skibi{ display: block;}}
+
+#evr{
+  background-color: red;
+}
+
+#medr{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+#fr{
+  float: right;
+  margin-right: 0px;
+}
+
+#flm{
+  float: left;
+}
+
+#flmp{
+  width: fit-content;
+  width: 233px;
+  margin-top: 40px;
+}
+
+#taione{
+  float: left;
+  margin-top: 20px;
+  width: 210px;
+  margin-left: 15px;
+  font-size: 13px;
+}
+
+#GH1{
+  text-align: left;
+  position: relative;
+  right: 0px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+#gc1{
+  font-size: 13px;
+  text-align: left;
+  width: 200px;
+  margin-top: 20px;
+}
+
+#babyskin{
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  bottom: 0px;
+  left: 40px;
+  height: 80%;
+  width: calc(100% - 320px);
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 0px rgba(83, 83, 83, 0.771);
+  overflow-y: scroll;
+}@media screen and (max-width: 660px) {#babyskin{ width: 90%; height: 90%; top: 30px;  left: 0px; right: 0px;}}
+
+#hi{
+  display: block;
+}@media screen and (max-width: 660px) {#hi{ display: none;}}
+
+#hi2{
+  display: none;
+}@media screen and (max-width: 660px) {#hi2{ display: block;}}
+
+#bsn{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#trig{
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+#dan{
+  width: 30px;
+  font-size: 12px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 40px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+#dalen{
+  margin-bottom: -10px;
+  margin-left: 20px;
+  height: 30px;
+  width: calc(100% - 150px);
+  background-color: red;
+  border-radius: 10px;
+  display: inline-block;
+
+}
+
+#dalen1{
+  margin-bottom: -10px;
+  margin-left: 20px;
+  height: 30px;
+  width: calc(100% - 150px);
+  background-color:rgb(244, 202, 35);
+  border-radius: 10px;
+  display: inline-block;
+}
+
+#dalen2{
+  margin-bottom: -10px;
+  margin-left: 20px;
+  height: 30px;
+  width: calc(100% - 150px);
+  background-color: rgb(255, 136, 0);
+  border-radius: 10px;
+  display: inline-block;
+
+}
+
+#dane{
+  font-weight: 400;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 15px;
+}
+
+#prognote{
+  position: absolute;
+  margin: auto;
+  margin-top: 10px;
+  outline: none;
+  left: 0;
+  right: 0;
+  height: 200px;
+  width: 80%;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#wig{
+  outline: none;
+  border-width: 0px;
+  width: calc(100% - 10px);
+  height: 100px;
+  background-color: rgb(231, 241, 242);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#key{
+  position: absolute;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  top: 120px;
+  padding-top: 5px;
+  background-color: rgb(219, 150, 173);
+  color: white;
+  height: 30px;
+  width: 70px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+}
+#key:hover{
+  background-color: purple;
+}
+
+#cimage{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+#cname{
+  font-size: 20px;
+  font-weight: bold;
+}
+#nwaspan{
+  float: right;
+  margin-right: 20px;
+}
+
+#pedi{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#bdata{
+  font-size: 12px;
+  padding:12px;
+}
+
+#messagecase{
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  bottom: -40px;
+  left: 0px;
+  right: 0px;
+  background-color: white;
+  width: 90%;
+  height: 90%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#messagecase2{
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  bottom: -40px;
+  left: 0px;
+  right: 0px;
+  background-color: white;
+  width: 90%;
+  height: 90%;
+  border-radius: 10px;
+  overflow: scroll;
+}
+
+#messagecase3{
+  position: absolute;
+  margin: auto;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: white;
+  width: 100%;
+  height: calc(100vh - 140px);
+  border-radius: 10px;
+  overflow: scroll;
+
+  animation-delay: 0ms;
+   animation-name: animback;
+   -webkit-animation-duration: 600ms;
+   animation-duration: 600ms;
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both;
+}
+
+
+@keyframes animback {
+  0% {opacity: 0};
+  100% {opacity: 1};
+}
+#mhead{
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+#incase{
+  padding-top: 40px;
+  margin-top: 10px;
+  background-color: #d8e4e8;
+  max-height: calc(100% - 150px);
+  width: calc(100% - 40px);
+  overflow: hidden;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  overflow-y: scroll;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+#incase2{
+  padding-top: 40px;
+  margin-top: 10px;
+  height: fit-content;
+  width: calc(100% - 40px);
+  overflow: hidden;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#incase3{
+  padding-top: 20px;
+  margin-top: 40px;
+  background-color: white   ;
+  height: fit-content;
+  width: calc(100% - 40px);
+  overflow: hidden;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  overflow-y: scroll;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+#messages{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 12px;
+  height: 30px;
+  padding-top: 5px;
+
+}
+
+#messages:hover{
+  background-color: rgb(143, 177, 208); border-radius: 5px;
+}
+
+
+
+#messagesx{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 12px;
+  height: 30px;
+  padding-top: 5px;
+
+}
+
+#mbody{
+  width: 70%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  display: inline-block;
+  text-align: left;
+}
+
+#mtime{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  display: inline-block;
+  color: blue;
+}
+#del{
+  height: 30px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+#pop{
+  z-index: 502;
+  position: absolute;
+  margin: auto;
+  max-width: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 200px;
+  width: 350px;
+  background-color :rgb(207, 226, 244);
+  border-radius: 10px;
+
+}
+
+#popsmoke{
+  z-index: 501;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.357);
+}
+
+#popsmoke1{
+  z-index: 501;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.357);
+}
+
+#rr{
+  margin-top: 30px;
+  color: red;
+  text-align: center;
+  font-weight: bold;
+}
+
+#fat{
+font-size: 40px;
+}
+
+#mmajiha{
+  margin-top: 50px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+#jiha{
+  cursor: pointer;
+  padding: 10px;
+  height: 22px;
+  width: 80px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+
+#hish{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#di{
+height: 30px;
+width: 5px;
+background-color:  rgb(187, 220, 230);
+}
+
+
+#anybg{
+  margin-top: 10px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  height: 30px;
+  padding-top: 5px;
+  width: 85%;
+
+}
+
+#anybg:hover{
+  background-color: rgb(143, 177, 208); border-radius: 5px;
+}
+
+#max{
+  height: 20px;
+}
+
+#cnn{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#mainmumfto{
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#mumfto{
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#fto{
+font-size: 14px;
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+width: 120px;
+}
+
+#btx{
+  font-size: 12px;
+  width: 100px;
+  background-color: rgb(107, 128, 0);
+  border-radius: 10px;
+  height: 25px;
+  text-align: center;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  margin-left: 10px;
+}
+#btx1{
+  font-size: 12px;
+  width: 100px;
+  background-color: rgb(34, 128, 0);
+  border-radius: 10px;
+  height: 25px;
+  text-align: center;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  margin-left: 10px;
+}
+
+#btx2{
+  font-size: 12px;
+  width: 100px;
+  background-color: rgb(128, 115, 0);
+  border-radius: 10px;
+  height: 25px;
+  text-align: center;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  margin-left: 10px;
+}
+
+
+#btx3{
+  font-size: 12px;
+  width: 100px;
+  background-color: rgb(106, 11, 11);
+  border-radius: 10px;
+  height: 25px;
+  text-align: center;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  margin-left: 10px;
+}
+#btx:hover{
+  background-color: green;
+}
+
+#prog{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 120px;
+}
+
+#stats{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+
+}
+
+#client{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+}
+
+#tarow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+#tah{
+  font-weight: 500;
+}
+
+#allcol{
+  width: 25%;
+  margin-top: 20px;
+}
+
+#allcol1{
+  width: 25%;
+  margin-top: 20px;
+}@media screen and (max-width: 700px) {#allcol1{ width:  180px;}}
+
+#allcol2{
+  width: 25%;
+  margin-top: 20px;
+}@media screen and (max-width: 700px) {#allcol2{ display: none;}}
+
+#tab{
+  font-size: 12px;
+}
+
+#tab2{
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 80%;
+}
+
+#ichtime{
+  font-size: 14px;
+  margin-top: 20px;
+  float: left;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+#hiop{
+  background-color: indianred;
+  width: 20%;
+  border-radius: 10px;
+  padding-top: 4px;
+}
+
+#yowant{
+  width: 85%;
+  height: 160px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+}@media screen and (max-width: 700px) {#yowant{ flex-direction:column; height:330px;width:fit-content; }}
+
+#sunburn{
+  height: 150px;
+  width: 250px;
+  border-radius: 20px;
+  background-color: lightgray;
+}@media screen and (max-width: 700px) {#sunburn{ width: 300px}}
+
+#xptm{
+  font-size: 20px;
+  font-weight: bold;
+  color: #9B4BD1;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+#xptm2{
+  font-size: 14px;
+  color: gray;
+  text-align: left;
+  padding-left: 20px;
+}
+#xptm3{
+  font-size: 14px;
+  color: gray;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+
+#manbtt{
+  height: 34px;
+  font-weight: 500;
+  padding-top: 7px;
+  padding-left: 40px;
+  float: left;
+  margin-left: 8%;
+  margin-top: 20px;
+  padding-right: 40px;
+  border-radius: 10px;
+  background-color: indianred;
+  width: fit-content;
+
+}@media screen and (max-width: 700px) {#manbtt{ margin-left: 8% }}
+
+#payhis{
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 8%;
+  margin-top: 80px;
+}
+
+#payhimininote{
+  font-size: 13px;
+  position: absolute;
+  margin-left: 8%;
+  margin-top: 130px;
+}
+
+#mine{
+  height: 20px;
+}
+
+#pinvh{
+  height: 25px;
+  margin-top: 10px;
+}
+
+#pinc{
+  margin-top: 200px;
+}
+
+#proplus{
+  float: left;
+  height: 27px;
+  font-size: 13px;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: indianred;
+}
+#proplusu{
+  float: left;
+  height: 27px;
+  font-size: 13px;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+#concase{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  margin-top: 80px;
+  max-width: 650px;
+  height: fit-content;
+  padding: 50px;
+  background-color: transparent;
+}
+
+#mpn{
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+}
+
+#spri{
+  position: absolute;
+  height: 200px;
+  top:90px;
+}
+
+#lipro{
+  position: absolute;
+  left: 0;
+  top:140px;
+  text-align: left;
+  left: 260px;
+}
+
+#prosetname{
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+#profsepos{
+  margin-top: 5px;
+  font-size: 13px;
+}
+#profsetori{
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+#afproset{
+  margin-top: 280px;
+}
+#afproset2{
+  margin-top: 50px;
+}
+
+#edibut{
+  position: absolute;
+  top: 230px;
+  right: 50px;
+  height: 27px;
+  font-size: 13px;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+#edibut2{
+  position: absolute;
+  top: 480px;
+  right: 50px;
+  height: 27px;
+  font-size: 13px;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+#pinfo{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+#profed{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: fit-content;
+  background-color: transparent;
+  margin-top: 10px;
+}
+
+#nkeizizi{
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 13px;
+  color: #404040;
+}
+#nknonairu{
+  margin-right: 20px;
+  font-size: 13px;
+  color: #404040;
+}
+
+#quickpos{
+  position: absolute;
+  height: fit-content;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin:auto;
+}
+
+#quchil{
+  height: 200px;
+  width: 80%;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+#subins{
+  height: 34px;
+  font-weight: 500;
+  padding-top: 7px;
+  padding-left: 40px;
+  margin-top: 20px;
+  padding-right: 40px;
+  border-radius: 10px;
+  background-color: indianred;
+  width: fit-content;
+
+}
+
+#ochild{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#gogwof{
+  outline: none;
+  border-width: 0px;
+  width: calc(100% - 10px);
+  height: 100px;
+  background-color: rgb(231, 241, 242);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+
+#incatrans{
+  padding-top: 40px;
+  margin-top: 10px;
+  max-height: calc(100% - 150px);
+  width: calc(100% - 40px);
+  overflow: hidden;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  overflow-y: scroll;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: transparent;
+}
+
+
+#moxfox{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 12px;
+  height: 35px;
+  padding-top: 5px;
+  padding-bottom: 4px;
+
+}
+
+#moxfox:hover{
+  background-color: rgb(143, 177, 208); border-radius: 5px;
+}
+
+#karen{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+#confesion{
+  margin-top: 30px;
+  border-radius: 10px;
+  width: 95%;
+  height: 220px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}@media screen and (max-width: 1340px) {#confesion{ display: inline-block; }}
+
+#onepac{
+  height: fill;
+  width: 440px;
+  margin-top: 20px;
+  background-color: whitesmoke;
+  display: inline-block;
+}@media screen and (max-width: 1340px) {#onepac{ width: 100%;  justify-content: space-evenly;}}
+
+#twopac{
+  height: fill;
+  margin-top: 20px;   
+  display: inline-block;
+  width: 440px;
+  background-color: whitesmoke;
+}@media screen and (max-width: 1340px) {#twopac{ width: 100%; justify-content: space-evenly; }}
+
+#pac{
+  height: 180px;
+  width: 180px;
+  border-radius: 10px;
+  background-color: white;
+  display: inline-block;
+  margin: 5px;
+}@media screen and (max-width: 1340px) {#pac{ width: 45%; }}
+
+#ph{
+    font-weight: bold;
+    font-size: 13px;
+    width: 10px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#pmg{
+  height: 100px;
+  width: 50px;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+#pbod{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -10px;
+}
+#minpbod{
+  font-size: 13px;
+  color: gray;
+}
+
+#dytex{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+#confeto{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
+  margin-top: 20px;
+  width: 95%;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+
+#confic{
+  float: left;
+  height: 70px;
+  width: 70px;
+  margin-top: 10px;
+}
+
+#bonadit{
+  display: inline-block;
+  height: 90px;
+  width: 80%;
+  border-radius: 10px;
+  background-color: white;
+}@media screen and (max-width: 1340px) {#bonadit{ width: 95%; }}
+
+#boname{
+  font-size: 20px;
+  font-weight: bold;
+}
+#bomin{
+  font-size: 13px;
+  font-weight: 500;
+  color: gray;
+
+}
+#allbon{
+  margin-top: 10px;
+  padding-top: 15px;
+  width: 200px;
+  height: 50px;
+  text-align: left;
+  padding-left: 10px;
+  float: left;
+}
+
+#bonticktex{
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+#bornfl{
+  height: 30px;
+  width: 30px;
+  margin-top: 25px;
+  margin-right: 25px;
+  float: right;
+}
+
+#facase{
+  height: 50px;
+  width: 300px;
+  z-index: 2;
+  position: fixed;
+  margin: auto;
+  top: 120px;
+  left: 300px  ;right: 0;
+  border-radius: 10px;
+  background-color: #BFBFBF;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 500;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}@media screen and (max-width: 1340px) {#facase{ left:0px }}
+
+#fsspace{
+  position: absolute;
+  z-index: 2;
+  right: 0px;
+  width: 150px;
+  border-radius: 10px;
+  padding-top: 13px;
+  height: calc(100% - 12px);
+  cursor: pointer;
+}
+#fsspace2{
+  position: absolute;
+  z-index: 2;
+  left: 0px;
+  width: 150px;
+  border-radius: 10px;
+  padding-top: 13px;
+  height: calc(100% - 12px);
+  cursor: pointer;
+}
+
+#fss{
+  transition-property: all;
+  transition-duration: 500ms;
+  height: 50px;
+  width: 150px;
+  position: absolute;
+  right: 150px;
+  background-color: indianred;
+  border-radius: 10px;
+}
+#fss2{
+  transition-property: all;
+  transition-duration: 500ms;
+  height: 50px;
+  width: 150px;
+  position: absolute;
+  right: 0px;
+  background-color: indianred;
+  border-radius: 10px;
+}
+
+
+#coff{
+  transition-duration: 300md;
+  transition-property: all;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
+  margin-top: 20px;
+  width: 95%;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+#con{
+  transition-duration: 300md;
+  transition-property: all;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
+  margin-top: 20px;
+  width: 95%;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+
+
+#adnew{
+  height: fit-content;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#adnsec1{
+  width: fit-content;
+  height: 270px;
+  margin: 10px;
+  display:  inline-block;
+  overflow: hidden;
+}
+
+#adnsec2{
+  width: fit-content;
+  height: 270px;
+  margin: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+#inpn{
+  font-size: 13px;
+  width: 250px;
+  text-align: left;
+  margin-bottom: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+#imp{
+  height: 35px;
+  width: 250px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #4F4F4F;
+}
+
+#impbtt{
+  margin-top: 30px;
+  padding-top: 10px;
+  height: 33px;
+  width: 250px;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  background-color: indianred;
+  color: white;
+}
+#impbtt:hover{
+background-color: rgb(223, 61, 61);
+}
+
+#formblock{
+  width: fit-content;
+}
+
+#simage{
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}@media screen and (max-width: 1340px) {#simage{ width: 95%; }}
